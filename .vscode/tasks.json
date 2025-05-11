@@ -1,0 +1,35 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "dotnet build (debug) - net8.0",
+            "type": "shell",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "${workspaceFolder}/src/Apps/Doruk.WebApp/Doruk.WebApp.csproj",
+                "-c",
+                "Debug",
+                "-f",
+                "net8.0"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "dotnet build (release) - net8.0",
+            "type": "shell",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "${workspaceFolder}/src/Apps/Doruk.WebApp/Doruk.WebApp.csproj",
+                "-c",
+                "Release",
+                "-f",
+                "net8.0"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
