@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <RootNamespace>$(MSBuildProjectName)</RootNamespace>
+    <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+    <Title>Content Permissions</Title>
+    <Description>
+      $(DorukDescription)
+
+      Module for Orchard Core to enable configuring security per content item.
+    </Description>
+    <PackageTags>$(PackageTags) orchardcore;etchuk</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OrchardCore.ContentManagement"  />
+    <PackageReference Include="OrchardCore.ContentManagement.Display"/>
+    <PackageReference Include="OrchardCore.ContentTypes"  />
+    <PackageReference Include="OrchardCore.DisplayManagement"  />
+    <PackageReference Include="OrchardCore.Indexing"  />
+    <PackageReference Include="OrchardCore.ResourceManagement"  />
+    <PackageReference Include="OrchardCore.Module.Targets" />
+  </ItemGroup>
+
+</Project>

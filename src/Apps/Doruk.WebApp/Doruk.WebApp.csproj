@@ -18,19 +18,29 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="OrchardCore.Application.Cms.Core.Targets" Version="2.1.7" />
-    <PackageReference Include="OrchardCore.Logging.Serilog" Version="2.1.7" />
-    <PackageReference Include="OrchardCore.Translations.All" Version="2.1.0" />
-    <PackageReference Include="Lombiq.HelpfulExtensions" Version="10.0.0" />
-    <PackageReference Include="Lombiq.Hosting.MediaTheme" Version="8.0.0" />
-    <PackageReference Include="Lombiq.JsonEditor" Version="9.0.0" />
+    <PackageReference Include="OrchardCore.Application.Cms.Core.Targets" />
+    <PackageReference Include="OrchardCore.Logging.Serilog" />
+    <PackageReference Include="OrchardCore.Translations.All" />
+    <PackageReference Include="Lombiq.HelpfulExtensions" />
+    <PackageReference Include="Lombiq.Hosting.MediaTheme" />
+    <PackageReference Include="Lombiq.JsonEditor" />
+    <PackageReference Include="TheTheme" />
+    <PackageReference Include="SafeMode" />
+    <PackageReference Include="TheAgencyTheme" />
+    <PackageReference Include="TheComingSoonTheme" />
+    <PackageReference Include="TheBlogTheme" />
+    <PackageReference Include="PuxOrchard.Theme.OliveCMS" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Serilog" Version="4.2.0" />
-    <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
-    <PackageReference Include="Serilog.Settings.Configuration" Version="9.0.0" />
-    <PackageReference Include="Serilog.Sinks.File" Version="6.0.0" />
+    <PackageReference Include="Serilog" />
+    <PackageReference Include="Serilog.AspNetCore" />
+    <PackageReference Include="Serilog.Settings.Configuration" />
+    <PackageReference Include="Serilog.Sinks.File" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Targets\Doruk.Core.Targets\Doruk.Core.Targets.csproj" />
   </ItemGroup>
 
 </Project>

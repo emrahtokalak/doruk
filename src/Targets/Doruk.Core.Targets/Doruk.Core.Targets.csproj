@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- NuGet properties-->
+    <Title>Target for Modular Doruk Application</Title>
+    <Description>
+      $(OCCMSDescription)
+
+      Add all of the Doryk modules to your OrchardCore application.
+    </Description>
+    <PackageTags>$(PackageTags) OrchardCore</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Modules\Doruk.ContentPermissions\Doruk.ContentPermissions.csproj" PrivateAssets="none" />
+    <ProjectReference Include="..\..\Modules\Doruk.SystemMonitor\Doruk.SystemMonitor.csproj" PrivateAssets="none" />
+
+  </ItemGroup>
+
+</Project>
