@@ -1,4 +1,6 @@
-# Doruk: Orchard Core Extensions
+# Doruk
+
+![Doruk Logo](doruk.png)
 
 Doruk is a collection of open-source modules designed to enrich **Orchard Core**, a powerful application framework built on **ASP.NET Core**.
 
@@ -45,4 +47,3 @@ The following modules are planned for development and inclusion in the Doruk col
 
 
 To get started with any module, refer to its respective `README.md` file for detailed setup instructions.
-
